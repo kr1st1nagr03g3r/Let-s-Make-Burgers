@@ -33,7 +33,7 @@ class Navigation extends React.Component {
                 <a href="#home">HOME</a>
                 <a href="#research">RESEARCH</a>
                 <div className={styles.dropdown}>
-                    <button className={styles.dropbtn}>MODEL OVERVIEW
+                    <button a href="/model-overview" className={styles.dropbtn}>MODEL OVERVIEW
                         <i clasNames={styles.fa}>&nbsp;▼</i>
                     </button>
                     <div className={styles.dropdowncontent}>
