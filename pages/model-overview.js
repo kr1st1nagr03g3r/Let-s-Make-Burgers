@@ -1,6 +1,7 @@
 import React from 'react';
-import LayoutModelOverview from '../components/LayoutModelOverview';
 import Navigation from '../components/Navigation'
+import Carousel from '../components/Carousel'
+
 
 
 class Modeloverview extends React.PureComponent {
@@ -9,7 +10,8 @@ class Modeloverview extends React.PureComponent {
         return ( 
 <>
     <Navigation />
-    <LayoutModelOverview />
+    <Carousel />
+    
 </>
          );
     }

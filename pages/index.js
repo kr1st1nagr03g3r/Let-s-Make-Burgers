@@ -4,6 +4,7 @@ import Navigation from '../components/Navigation'
 import 'tailwindcss/tailwind.css'
 
 
+
 export default function Home() {
   return (
     <div className={styles.container}>

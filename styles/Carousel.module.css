@@ -1,0 +1,14 @@
+.content {
+    height: 800px;
+    border-radius: 0px;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 700;
+    padding-top: 3%;
+}

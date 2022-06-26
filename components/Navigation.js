@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from '../styles/Nav.module.css'
+import Link from 'next/link'
 
 
 class Navigation extends React.Component {
@@ -33,9 +34,11 @@ class Navigation extends React.Component {
                 <a href="#home">HOME</a>
                 <a href="#research">RESEARCH</a>
                 <div className={styles.dropdown}>
-                    <button a href="/model-overview" className={styles.dropbtn}>MODEL OVERVIEW
-                        <i clasNames={styles.fa}>&nbsp;▼</i>
+                <Link href="/model-overview" passHref>
+                    <button className={styles.dropbtn}>MODEL OVERVIEW
+                        <i classNames={styles.fa}>&nbsp;▼</i>
                     </button>
+                    </Link>
                     <div className={styles.dropdowncontent}>
                         <a href="#">DRUG DISCOVERY</a>
                         <a href="#">DRUG DISCOVERY / PRE-CLINICAL</a>

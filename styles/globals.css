@@ -21,28 +21,3 @@ a {
   text-decoration: none;
 }
 
-/* TODO: figure out how to target Contextual selectors outside of globals.css */
-details>summary {
-  list-style: none;
-}
-
-summary::-webkit-details-marker {
-  display: none
-}
-
-summary::after {
-  content: ' ▼';
-  color: white;
-}
-details[open] summary:after {
-  content: " ►";
-}
-summary {
-  color: white;
-}
-
-details {
-  height: 150px;
-  margin-top: 126px;
-}
-
